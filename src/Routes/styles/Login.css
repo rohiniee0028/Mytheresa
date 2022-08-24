@@ -1,0 +1,275 @@
+.main-container{
+    width:100%;
+}
+.inside-container{
+    width:78%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+}
+.create-account{
+    width:50%;
+    border-right: 1px solid lightgray;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+}
+.registered-account{
+    width:50%;
+    /* border: 1px solid grey; */
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+}
+.inside-account{
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: flex-start;
+}
+.inside-register{
+    padding-left: 50px; 
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: flex-start;
+    align-items: flex-start; 
+    text-align: start;
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: .8px;
+    line-height: 19px;
+    color: #757575;
+}
+.top-para-register{
+    color:#000000;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+}
+
+.field-set{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start; 
+    text-align: start;
+    
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: .8px;
+    line-height: 19px;
+    color: #757575;
+}
+.input-content{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 10px;
+    /* justify-content: flex-start;
+    align-content: flex-start;   */
+}
+.input-content>a{
+    color: #757575;;
+    cursor: pointer;
+}
+.checkbox-para{
+    margin-bottom: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.input-content input,select{
+    width:500px;
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: .8px;
+    color: #757575;
+    background-color: #fff;
+    height: 40px;
+    padding: 5px 12px;
+    border: 1px solid #dfdfdf;
+    border-radius: 0;
+    line-height: normal;
+    writing-mode: horizontal-tb !important;
+}
+.input-content select{
+    width:100%;
+    cursor: pointer;
+}
+.login-top-para{
+    font-family: Futura, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    color: #9f2943!important;
+    text-align: center;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.login-btn{
+   width:15%; 
+   padding:5px 15px;
+   color:white;
+   cursor: pointer;
+   background-color: black;
+   font-family: Futura, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+}
+.register-btn{
+    background-color: #f2f2f2;
+    padding:10px 20px;
+    cursor: pointer;
+    border: none;
+    font-family: Futura, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+}
+.checkbox-para>input{
+    cursor: pointer;
+}
+.radio-div>span>input{
+    cursor: pointer;
+}
+@media all and (min-width: 420px) and (max-width:720px){
+    .input-content input,select{
+        width:100%;
+        font-size: 14px;
+        font-family: Arial,Helvetica,sans-serif;
+        letter-spacing: .8px;
+        color: #757575;
+        background-color: #fff;
+        height: 40px;
+        padding: 5px 12px;
+        border: 1px solid #dfdfdf;
+        border-radius: 0;
+        line-height: normal;
+        writing-mode: horizontal-tb !important;
+    }
+    .input-content select{
+        width:100%;
+        cursor: pointer;
+    } 
+    .login-btn{
+        width:50%; 
+        padding:5px 15px;
+        color:white;
+        cursor: pointer;
+        background-color: black;
+        font-family: Futura, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+     }
+}
+
+@media all and (min-width: 720px) and (max-width:1380px){
+    .input-content input,select{
+        width:100%;
+        font-size: 14px;
+        font-family: Arial,Helvetica,sans-serif;
+        letter-spacing: .8px;
+        color: #757575;
+        background-color: #fff;
+        height: 40px;
+        padding: 5px 12px;
+        border: 1px solid #dfdfdf;
+        border-radius: 0;
+        line-height: normal;
+        writing-mode: horizontal-tb !important;
+    }
+    .input-content select{
+        width:100%;
+        cursor: pointer;
+    } 
+    .login-btn{
+        width:50%; 
+        padding:5px 15px;
+        color:white;
+        cursor: pointer;
+        background-color: black;
+        font-family: Futura, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+     }
+}
+@media all and (min-width: 100px) and (max-width:420px){
+    .inside-container{
+        width:95%;
+        /* border: 1px solid red; */
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .create-account{
+        width:100%;
+        /* margin: auto; */
+        /* border: 1px solid lightgray; */
+        font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+        
+    }
+    .registered-account{
+        margin-right: 30px;
+        margin-top:10px;
+        width:100%;
+        border-top: 1px solid lightgray;
+        font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+    }
+    .inside-account{
+        width:100%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content:center;
+        align-content: center;
+        /* border: 1px solid red; */
+    }
+    .inside-register{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-content: center;
+        /* text-align: center; */
+        font-size: 14px;
+        font-family: Arial,Helvetica,sans-serif;
+        letter-spacing: .8px;
+        line-height: 19px;
+        color: #757575;
+        /* border: 1px solid red; */
+    }
+    .field-set{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center; 
+        /* text-content: center; */
+        font-size: 14px;
+        font-family: Arial,Helvetica,sans-serif;
+        letter-spacing: .8px;
+        line-height: 19px;
+        color: #757575;
+        /* border: 1px solid red; */
+    }
+    .input-content input,select{
+        width:100%;
+        font-size: 14px;
+        font-family: Arial,Helvetica,sans-serif;
+        letter-spacing: .8px;
+        color: #757575;
+        background-color: #fff;
+        height: 40px;
+        padding: 5px 12px;
+        /* border: 1px solid #dfdfdf; */
+        border-radius: 0;
+        line-height: normal;
+        writing-mode: horizontal-tb !important;
+    }
+    select{
+        width:250px;
+        cursor: pointer;
+    } 
+    .login-btn{
+        width:50%; 
+        padding:5px 15px;
+        color:white;
+        cursor: pointer;
+        background-color: black;
+        font-family: Futura, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+     }
+}

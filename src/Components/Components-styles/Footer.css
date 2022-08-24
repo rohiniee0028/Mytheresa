@@ -1,0 +1,219 @@
+.footer-apps{
+   border-top: 1px solid lightgray; 
+   border-bottom: 1px solid lightgray;
+   width:78%; 
+   margin: auto;
+   margin-top: 50px;
+   text-align: center;
+   padding-top: 20px;
+   letter-spacing: .8px;
+   padding-bottom: 20px;
+}
+.footer-apps>p{
+    font-size: 15px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 400;
+   
+}
+.apps-img{
+    display: flex;
+     width:120px;
+     height:35px;
+     margin: auto;
+     gap:10px;
+     margin-left: 41%;
+     cursor: pointer;
+}
+.footer-links{
+    width:78%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    font-size:15px;
+    font-family: Arial,Helvetica,sans-serif;
+    /* gap:10px; */
+    cursor: pointer;
+}
+.footer-service{
+    display:flex;
+    flex-direction: column;
+    gap:14px;
+}
+.footer-service>div{
+    display:flex;
+    flex-direction: column;
+    gap:2px;
+ 
+}
+.footer-service>div>a{
+    color:#000000;
+    font-family: Arial,Helvetica,sans-serif;
+
+}
+.footer-service>div>span{
+    color: #757575;
+    padding:0px 0px 0px 20px;
+}
+.footer-about,.footer-cutomer-care{
+    display:flex;
+    flex-direction: column;
+    /* gap:10px; */
+    letter-spacing: .8px;
+    
+}
+.footer-middle>div>p{
+    color:#000000;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+}
+.footer-service>p{
+    color:#000000;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+}
+.footer-about>p{
+    color:#000000;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+}
+.footer-about>span, .footer-cutomer-care>span{
+    padding:4px 0px;
+    color:#757575
+}
+.footer-cutomer-care>p{
+    color:#000000;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+}
+.icons-social{
+    display:flex;
+    gap:8px;
+    margin-top: 8px;
+}
+.input-foot>input{
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: .8px;
+    color: #757575;
+    background-color: #fff;
+    padding: 5px 12px;
+    border: 1px solid #dfdfdf;
+    border-radius: 0;
+    -webkit-appearance: none;
+    outline: none;
+}
+.input-foot{
+    display: flex;
+}
+.input-foot>button{
+    text-transform: uppercase;
+    /* float: left; */
+    border: none;
+    width: 40%;
+    white-space: nowrap;
+    height: 32px;
+    background: #f2f2f2;
+    color: #000;
+    cursor: pointer;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+}
+.imprint{
+    width:78%;
+    margin: auto;
+    margin-top: 30px;
+    color: #999;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: .8px;
+    border-top: 1px solid lightgray;
+}
+.imprint>div{
+    display: flex;
+    justify-content: space-between;
+}
+.payment{
+  display: flex;
+  gap:10px;
+}
+.visa-icon{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+}
+.visa-icon>img{
+  width:45px;
+  height:25px;
+  gap:10px; 
+}
+.deliver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deliver>img{
+    width:80px;
+}
+.terms{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+@media all and (min-width:420px) and (max-width:720px){
+    .apps-img{
+        display: flex;
+         width:120px;
+         height:35px;
+         margin: auto;
+         gap:10px;
+         margin-left: 25%;
+    } 
+    .footer-links{
+        width:98%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: start;
+        font-size:15px;
+        font-family: Arial,Helvetica,sans-serif;
+        /* gap:10px; */
+        cursor: pointer;
+    }
+}
+@media all and (min-width:100px) and (max-width:420px){
+    .apps-img{
+        display: flex;
+         width:120px;
+         height:35px;
+         margin: auto;
+         gap:10px;
+         margin-left: 25%;
+    } 
+    .footer-links{
+        width:98%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: start;
+        font-size:15px;
+        font-family: Arial,Helvetica,sans-serif;
+        /* gap:10px; */
+        cursor: pointer;
+    }
+    .imprint{
+        width:98%;
+        margin: auto;
+        margin-top: 30px;
+        color: #999;
+        font-family: Arial,Helvetica,sans-serif;
+        letter-spacing: .8px;
+        border-top: 1px solid lightgray;
+    }
+    .imprint>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
