@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./styles/Life.css";
 export const Life = () => {
     return (
@@ -6,7 +7,9 @@ export const Life = () => {
                 <p className="life-top-para">For a short time only: free shipping on all orders</p>
                 <div className="life-main-container">
                     <div className="top-img">
-                        <img src="https://img.mytheresa.com/media/static/raw/cms/l/Life_HP_2022_CW22/BIG_EN/Big_Week3_LIFE_desktop_1_2x_20220530121415.jpg?imwidth=1180&imdensity=1" alt="img-1" />
+                        <Link to="/LifeProducts">
+                            <img src="https://img.mytheresa.com/media/static/raw/cms/l/Life_HP_2022_CW22/BIG_EN/Big_Week3_LIFE_desktop_1_2x_20220530121415.jpg?imwidth=1180&imdensity=1" alt="img-1" />
+                        </Link>
                     </div>
                     <div className="divided-div">
                         <div className="div-1">
@@ -14,8 +17,10 @@ export const Life = () => {
                                 <span className="h4-tag">WHERE SELF-CARE STARTS</span>
                                 <p className="h1-tag">Make your bathroom a sanctuary</p>
                             </div>
-                            <img src="https://img.mytheresa.com/media/static/raw/cms/l/LIFE_HP_2022_CW34/NEW_BATH/CW34_ActboxTall_2x_20220823145711.jpg?imwidth=600&imdensity=1" alt="img-2" />
-                            <button className="shop-btn">SHOP NOW</button>
+                            <Link to="#">
+                                <img src="https://img.mytheresa.com/media/static/raw/cms/l/LIFE_HP_2022_CW34/NEW_BATH/CW34_ActboxTall_2x_20220823145711.jpg?imwidth=600&imdensity=1" alt="img-2" />
+                                <button className="shop-btn">SHOP NOW</button>
+                            </Link>
                         </div>
                         <div className="div-2">
                             <div>
@@ -23,8 +28,10 @@ export const Life = () => {
                                     <p className="h4-tag">PRINTS, PATTERNS, PANACHE</p>
                                     <p className="h1-tag">All of this, and more, from La DoubleJ</p>
                                 </div>
-                                <img src="https://img.mytheresa.com/media/static/raw/cms/l/LIFE_HP_2022_CW34/CW34_ActboxSmall_2x__20220819182631.jpg?imwidth=600&imdensity=1" alt="img-3" />
-                                <button className="shop-btn">SHOP NOW</button>
+                                <Link to="/LifeProducts">
+                                    <img src="https://img.mytheresa.com/media/static/raw/cms/l/LIFE_HP_2022_CW34/CW34_ActboxSmall_2x__20220819182631.jpg?imwidth=600&imdensity=1" alt="img-3" />
+                                    <button className="shop-btn">SHOP NOW</button>
+                                </Link>
                             </div>
                             <div>
                                 <div>

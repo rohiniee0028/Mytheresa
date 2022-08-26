@@ -1,0 +1,82 @@
+.products-section{
+    width:78%;
+    margin: auto;
+}
+.products-top-div{
+    display:flex;
+    gap:20px;
+}
+.products-top-div>div{
+    width:50%;
+}
+.products-top-div>div>img{
+    width:100%;
+}
+.products-top-div>div>p{
+    text-align: start;
+    font-size: 14px;
+    color:#757575;
+    letter-spacing: .8px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+}
+.main-item{
+    display:flex;
+    gap:20px;
+    border-top: 1px solid #dfdfdf;
+    margin-top: 30px;
+}
+.filters{
+    text-align: start;
+    width:20%;
+}
+.item{
+    width:80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+}
+.item-box>img{
+   width:100%;
+}
+.link-item-box{
+    text-decoration: none;
+    color:#000;
+
+}
+.item-box>p:nth-child(2){
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: .4px;
+   
+}
+.item-box p:nth-child(3){
+    font-size: 14px;
+    letter-spacing: .8px;
+    color:#757575;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.item-box p:nth-child(4){
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: .8px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.filters-div{
+    text-align: start;
+    border-bottom: 1px solid#dfdfdf;
+}
+.select-option{
+    margin-top: 20px;
+}
+.select-option>select{
+   width:90%; 
+
+}
+.search-div>div:nth-child(2){
+    display: flex;
+}
+.checkbox-div{
+    padding:20px 0px;
+    border-bottom: 1px solid #dfdfdf;
+}

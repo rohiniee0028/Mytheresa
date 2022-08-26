@@ -3,7 +3,7 @@
     margin: auto;
     cursor: pointer;
 }
-.top-img>img{
+.top-img>a>img{
     width:100%;
     height:auto;
 }
@@ -38,7 +38,7 @@
 .div-2>div:nth-child(1){
     border-bottom: 1px solid #dfdfdf;
 }
-.div-2>div:nth-child(1)>img{
+.div-2>div:nth-child(1)>a>img{
    margin-top: -12px;
 }
 .div-2>div:nth-child(2){
