@@ -6,6 +6,7 @@ import {Route, Routes} from "react-router-dom"
 import { Login } from "./Login"
 import { LifeProducts } from "./LifeProducts"
 import { ProductDetails } from "./ProductDetails"
+import { Cart } from "./Cart"
 
 export const AllRoutes = ()=>{
     return (
@@ -16,7 +17,8 @@ export const AllRoutes = ()=>{
             <Route path="/life" element={<Life/>}/>
             <Route path="/login" element={<Login/>}/>
             <Route path="/LifeProducts" element={<LifeProducts/>}/>
-            <Route path="/details" element={<ProductDetails/>}/>
+            <Route path="/LifeProducts/:LifeProducts_id" element={<ProductDetails/>}/>
+            <Route path="/Cart" element={<Cart/>}/>
         </Routes>
     )
 }

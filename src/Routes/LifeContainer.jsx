@@ -7,11 +7,12 @@ export const LifeContainer = ({
     name,
     desc,
     price,
-    details
+    details,
+    handlCart
 })=>{
     return (
-        <Link to="/details" className="link-item-box">
-        <div key={key} className="item-box">
+        <Link to={`/LifeProducts/${id}`} className="link-item-box">
+        <div key={key} className="item-box" onClick={()=>handlCart(id)}>
           <img src={image}/>
           <p>{name}</p>
           <p>{desc}</p>

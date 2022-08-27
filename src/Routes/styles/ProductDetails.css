@@ -1,0 +1,100 @@
+.main-details-div{
+    border-top: 1px solid #dfdfdf;
+}
+.details-box{
+    width:78%;
+    margin: auto;
+    display:flex;
+    gap:30px;
+    margin-top: -20px;
+   
+}
+.details-box>div:nth-child(1){
+    width:50%;
+    margin: auto;
+    margin-top: 90px;
+}
+.details-box>div:nth-child(2){
+    width:50%;
+    text-align: start;
+    margin: auto;
+    
+}
+.name{
+    font-size: 22px ;
+    color:#757575;
+    letter-spacing: .5px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+}
+.desc{
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: 0;
+    color: #757575;
+}
+.price{
+    font-weight: 700;
+    letter-spacing: .3px; 
+    line-height: 1.8;
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.vat{
+    font-family: Arial,Helvetica,sans-serif; 
+    font-size: 11px;
+    color: #757575;
+    letter-spacing: .8px;
+}
+.shopping-btn{
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 17px;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.wish-btn{
+    color: #000;
+    background-color: #f2f2f2;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 17px;
+    padding: 10px 26px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.free-ship{
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif; 
+    letter-spacing: .3px; 
+}
+.style-details>p{
+    font-size: 16px;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: .8px;
+    line-height: 19px;
+    color: #757575;
+}
+.style-details>p{
+    font-size: 14px;
+    letter-spacing: .8px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+}
+.top-navigator{
+    width:73%;
+    margin:auto;
+    text-align: start;
+    margin-top: 40px;
+    font-size: 11px;
+    letter-spacing: .8px;
+    color:#757575;
+    font-family: Arial,Helvetica,sans-serif;
+}

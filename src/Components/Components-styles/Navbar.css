@@ -121,6 +121,9 @@ body {
     /* border: 1px solid red; */
     margin: 0px 0px 30px;
 }
+.roh-shift-right>a{
+   text-decoration: none;
+}
 
 .icon-search {
     display: inline-block;

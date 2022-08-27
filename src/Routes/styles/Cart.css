@@ -1,0 +1,73 @@
+.cart-container{
+    width:78%;
+    margin: auto;
+}
+.bag-p{
+    font-size: 15px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    letter-spacing: .2px;
+    color:#000;
+    text-align: start;
+}
+.proceed-btn{
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 17px;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 975px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color .4s ease-out,border-color .4s ease-out,color .4s ease-out;
+
+}
+@media all and (min-width:420px) and (max-width:950px){
+  .proceed-btn{
+    margin-left:61%;
+    margin-bottom: 20px;
+  }
+}
+.name{
+    font-size: 22px ;
+    color:#000;
+    letter-spacing: .5px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;  
+}
+.same-css{
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: 0;
+    color: #757575;
+}
+.remove,.wish{
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color:red;
+}
+.wish{
+    margin-right: 10px;
+}
+.input-qty{
+    width:45px;
+    height:25px;
+    padding: 5px 12px;
+    color:black;
+    border: 1px solid #dfdfdf;
+    border-radius: 0;
+    -webkit-appearance: none;
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: .8px;
+    background-color: #fff;
+    text-align: center;
+}

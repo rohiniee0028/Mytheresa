@@ -23,7 +23,8 @@
     display:flex;
     gap:20px;
     border-top: 1px solid #dfdfdf;
-    margin-top: 30px;
+    padding-top:30px;
+    cursor: pointer;
 }
 .filters{
     text-align: start;
@@ -34,6 +35,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: auto;
+    padding-top: 50px;
 }
 .item-box>img{
    width:100%;
@@ -66,17 +68,99 @@
     text-align: start;
     border-bottom: 1px solid#dfdfdf;
 }
+.filters-div>p:nth-child(1){
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 13px; 
+    letter-spacing: .8px;
+}
+.filters-div>p:nth-child(2){
+    font-weight: 700;
+    color: black;
+    font-size: 14px;
+    letter-spacing: .8px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.filters-div>p{
+    color:#757575;
+    font-size: 14px;
+    letter-spacing: .8px;
+    font-family: Arial,Helvetica,sans-serif; 
+}
 .select-option{
     margin-top: 20px;
+   
 }
 .select-option>select{
-   width:90%; 
-
+   width:100%; 
+   color:black;
+   cursor: pointer;
+   font-weight: 700;
+   font-size: 14px;
+   letter-spacing: .8px;
+   font-family: Arial,Helvetica,sans-serif; 
 }
 .search-div>div:nth-child(2){
     display: flex;
 }
 .checkbox-div{
     padding:20px 0px;
+    font-family: Arial,Helvetica,sans-serif;
     border-bottom: 1px solid #dfdfdf;
+    font-size: 14px;
+    letter-spacing: .8px;
+    color:#757575;
+    cursor: pointer;
+}
+
+.search-div>p{
+    font-weight: 700;
+    font-size: 16.38px;
+    letter-spacing: .8px;
+    font-family: Arial,Helvetica,sans-serif; 
+}
+.fasearch{
+    border:1px solid #dfdfdf;
+}
+.fasearch>input{
+  border: none;
+  outline:none;  
+  padding: 10px 5px;
+}
+.font-search{
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.toolbar-top{
+    display:flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.sorting-div{
+    width:65%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 0;
+    font-size: 12px;
+    color: #757575;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: .8px;
+}
+.sorting-div>select{
+    width:100px;
+    border: none;
+    outline:none;
+}
+.flexing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toolbar-top>div:nth-child(1){
+    font-size: 11px;
+    color: #757575;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: .8px;
 }
