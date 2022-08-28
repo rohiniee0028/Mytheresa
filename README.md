@@ -18,7 +18,7 @@ Mytheresa is a German e-commerce luxury fashion company.It is an online shopping
 - In top section there is navbar from which we can browse to other pages.
 - At the bottom section there is a footer, both header and footer are same across all the pages.
 
-![Landing page](public/theresa/image1.png)
+![Landing page](theresa/image1.png)
 
 ![Landing page](theresa/image2.png)
 
