@@ -1,12 +1,14 @@
+
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { deleteCartData, getCartData, updateCartData } from "../api/api";
+import { Link, Navigate } from "react-router-dom";
+import { deleteCartData, getCartData} from "../api/api";
 import { CartTable } from "./CartTable";
 import "./styles/Cart.css";
 
 export const Cart = () => {
     const [cartData, setCartData] = useState([]);
     const [qty, setQty] = useState(1);
+
 
     const handleQty = (e)=>{
         e.preventDefault();
@@ -55,7 +57,7 @@ export const Cart = () => {
                     <p className="bag-p">YOUR SHOPPING BAG</p>
                 </div>
                 <div>
-                    <Link to="/">
+                    <Link to="/address">
                       <button className="proceed-btn">PROCEED TO CHECKOUT</button>
                     </Link>
                 </div>

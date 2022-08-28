@@ -4,6 +4,7 @@ export const Life = () => {
     return (
         <div style={{ borderTop: "1px solid lightgrey" }}>
             <div className="life-content">
+                <h3>LIFE</h3>
                 <p className="life-top-para">For a short time only: free shipping on all orders</p>
                 <div className="life-main-container">
                     <div className="top-img">

@@ -3,7 +3,6 @@ import "./Components-styles/Navbar.css";
 import { IoHeartOutline } from "react-icons/io5";
 
 export const Navbar = () => {
-    
     return (
         <div className="Navbar-container">
             <div className="link-container">
@@ -54,7 +53,7 @@ export const Navbar = () => {
                     <Link to="/cart">
                     <div className="shop-bag">
                         <span className="shopping-bag">Shopping Bag</span>
-                        <span className="count icon icon-cart">0</span>
+                        <span className="count icon icon-cart"></span>
                     </div>
                     </Link>
                 </div>

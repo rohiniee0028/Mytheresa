@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# Mytheresa Website Clonning
+Mytheresa is a German e-commerce luxury fashion company.It is an online shopping destination for children's, men's, and women's luxury fashion and lifestyle design.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### [click here to run live demo]()
 
-## Available Scripts
 
-In the project directory, you can run:
+## Tech Stack used :
 
-### `npm start`
+* **HTML**
+* **CSS**
+* **JAVASCRIPT**
+* **REACT JS**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![alt icons](https://t4.ftcdn.net/jpg/03/58/42/75/360_F_358427509_EFpw8u9515zgHy6cPHsOJaCz3ueNts5y.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Landing Page:
+-The landing page of mytheresa displays various products, offers and ads of their own.
+-In top section there is navbar from which we can browse to other pages.
+-At the bottom section there is a footer, both header and footer are same across all the pages.
 
-### `npm test`
+![Landing page](theresa/image1.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Landing page](theresa/image2.png)
 
-### `npm run build`
+![Landing page](theresa/image3.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Landing page](theresa/image4.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Footer page :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Footer page](theresa/imagefooter5.png)
 
-### `npm run eject`
+![Footer page](theresa/imagefooter6.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Login page :
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- user can login by clicking on my account from navbar section.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Login](theresa/imageaccount10.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Login](theresa/imageloginAlert17.png)
 
-## Learn More
+## Products page :
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Designed two pages-
+  1. Life section
+  2. Kids section
+- By clicking on Life section and kids section on top of the navabr user can go to products page.
+- Used sorting and pagination.
+- Used json-server local host for fetching data, Post and delete data. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Product page](theresa/imageProducts11.png)
 
-### Code Splitting
+![Product page](theresa/imageProducts12.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Product page](theresa/imageProducts13.png)
 
-### Analyzing the Bundle Size
+![Product page](theresa/imagekids7.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Product page](theresa/imagekids8.png)
 
-### Making a Progressive Web App
+![Product page](theresa/imagekids9.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Products page](theresa/imageproSort14.png)
 
-### Advanced Configuration
+## Details page :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![Details page](theresa/imagedetails.15.png)
 
-### Deployment
+![Details page](theresa/imagedetailsAlert16.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Cart page : 
 
-### `npm run build` fails to minify
+- User can increase or decrease quatity of product and can also remove products from cart.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Cart page](theresa/Cart18.png)
+
+## Address page :
+
+![Address page](theresa/address19.png)
+
+![Address page](theresa/address20.png)
+
+## Payment page :
+
+![Payment page](theresa/credit21.png)
+
+## Successful page :
+
+![successful page](theresa/successful.png)
+
+## Learnings :
+- Real-life implementation of HTML, CSS, advanced Javascript and React JS.
+- Time-management and Accountability.
+- Learn to work in pressure.
+- Learn to tackle problems and how to keep our-self motivated.
+
+## Links :
+- **Github** : https://github.com/rohiniee0028
+- **Email** : rohini19394@gmail.com
+- **LinkedIn** : https://www.linkedin.com/in/rohini-kushwaha-735b9322b/
+
+ 
+

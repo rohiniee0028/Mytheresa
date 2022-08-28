@@ -1,0 +1,115 @@
+.address-section{
+    width:78%;
+    margin: auto;
+    display:flex;
+    gap:30px;
+    text-align: start;
+    margin-top: 30px;
+}
+.left-address{
+   width:40%;
+   border-right: 1px solid #dfdfdf;
+   padding-right: 80px;
+}
+.right-shipping{
+    width:40%;
+    padding-left: 50px;
+ }
+ .form-address{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+ }
+ .form-address>input{
+    padding:10px 20px;
+ }
+ .ship-head{
+    font-size: 15px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #000;
+ }
+ .pls-enter{
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: .8px;
+    line-height: 19px;
+    color: #757575;
+ }
+ .radio-div{
+    margin-bottom: 10px;
+ }
+ .billing-btn,.back-btn{
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: background-color .4s ease-out,border-color .4s ease-out,color .4s ease-out;
+ }
+ .express{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+    padding: 14px 0px;
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: .8px;
+    font-weight: 600;
+    margin-top: 30px;
+ }
+ .high-vol{
+    border: 1px solid #dfdfdf;
+    padding:10px;
+ }
+ .packaging{
+    display: flex;
+    justify-content: space-between;
+    /* gap:20px; */
+ }
+ .pack{
+    margin-bottom: 20px;
+ }
+ .bottom-div{
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    padding:14px 0px;
+    margin-top: 30px;
+ }
+ .checking-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+ }
+ .checkout-below{
+    width:50%;
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 17px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 65%;
+    margin-left: 40%;
+    transition: background-color .4s ease-out,border-color .4s ease-out,color .4s ease-out;
+ }
+ .right-shipping>a{
+    text-decoration: none;
+ }

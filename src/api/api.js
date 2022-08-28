@@ -1,5 +1,5 @@
-export const getProd = async ({sortPrice, page})=>{
-    return await fetch(`http://localhost:3005/Life?_sort=price&_order=${sortPrice}&_page=${page}`)
+export const getProd = async ({page})=>{
+    return await fetch(`http://localhost:3005/Life?_page=${page}`)
     .then(res=>res.json());
 }
 

@@ -3,13 +3,12 @@ import { createContext, useState } from "react";
 export const AuthContext = createContext();
 
 export const AuthContextProvider=({children})=>{
-    const [count, setCount] = useState(0);
-    
-    const handleCount = ()=>{
-        setCount(prev=>prev+1);
-    };
+    const [isAuth, setIsAuth] = useState(false);
+
+    const toggleAuth = ()=> setIsAuth(!isAuth);
+   
     return (
-        <AuthContext.Provider value={{count, handleCount}}>
+        <AuthContext.Provider value={{isAuth, toggleAuth}}>
             {children}
         </AuthContext.Provider>
     )

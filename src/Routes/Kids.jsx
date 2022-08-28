@@ -2,6 +2,7 @@ import "./styles/Kids.css";
 export const Kids = () => {
     return (
         <div style={{ borderTop: "1px solid #dfdfdf" }}>
+            <h3>KIDS</h3>
             <p className="kids-top-para">For a short time only: free shipping on all orders</p>
             <div className="top-kids">
                 <div className="kids-section">

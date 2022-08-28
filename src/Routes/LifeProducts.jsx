@@ -20,15 +20,15 @@ const initState = {
 
 export const LifeProducts = () => {
     const [state, dispatch] = useReducer(reducer, initState);
-    const [sortPrice, setSortPrice] = useState();
+    const [sortPrice, setSortPrice] = useState("asc");
     const [page, setPage] = useState(1);
 
     useEffect(() => {
         handleProd();
-    }, [sortPrice,page])
+    }, [page])
 
     const handleProd = () => {
-        getProd({sortPrice, page})
+        getProd({page})
             .then(res => {
                 // console.log(res);
                 dispatch(FetchSuccessData(res));
@@ -37,20 +37,33 @@ export const LifeProducts = () => {
                 dispatch(FetchErrorData());
             })
     }
-    // const handleSort=(e)=>{
-    //     setSortPrice(e.target.value);
-    //     if(sortPrice==="asc"){
-    //         state.data.sort((a,b)=>{
-    //             return Number(a.price)-Number(b.price) 
-    //         })
-    //     }
-    //     else{
-    //         state.data.sort((a,b)=>{
-    //             return Number(b.price)-Number(a.price) 
-    //         })
-    //     }
-    //     handleProd();
-    // }
+    const handleSort = (e)=>{
+        setSortPrice(e.target.value);
+        if(sortPrice==="asc"){
+          const newData = state.data.sort((a,b)=>{
+            if (a.price > b.price){
+                return -1;
+            }
+            else{
+              return 1;
+            } 
+          })
+          dispatch(FetchSuccessData([...newData])); 
+        }
+        else{
+          const newData = state.data.sort((a,b)=>{
+            if (a.price > b.price){
+                return +1;
+            }
+            else{
+              return -1;
+            } 
+          })
+          dispatch(FetchSuccessData([...newData]));
+        }
+      
+       
+      }
 
     return (
         <div style={{ borderTop: "1px solid #dfdfdf" }}>
@@ -69,10 +82,10 @@ export const LifeProducts = () => {
                     <div className="flexing">LIFE/Designers/La DoubleJ<IoChevronForwardOutline/><IoChevronForwardOutline/></div>
                     <div className="sorting-div">
                         <div>{state.data.length} Products</div>
-                        <select value={sortPrice} onChange={(e)=>setSortPrice(e.target.value)}>
+                        <select value={sortPrice} onChange={(e)=>handleSort(e)}>
                             <option value="">Sort by</option>
-                            <option value="ASC">Price low-to-high</option>
-                            <option value="DESC">Price high-to-low</option>
+                            <option value="asc">Price low-to-high</option>
+                            <option value="desc">Price high-to-low</option>
                         </select>
                         <Pagination total={2} current={page} onChange={(value)=>setPage(value)} />
                     </div>
