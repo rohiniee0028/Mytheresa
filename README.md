@@ -73,7 +73,7 @@ Mytheresa is a German e-commerce luxury fashion company.It is an online shopping
 
 - User can increase or decrease quatity of product and can also remove products from cart.
 
-![Cart page](theresa/Cart18.png)
+![Cart page](theresa/imageCart18.png)
 
 ## Address page :
 
@@ -87,7 +87,7 @@ Mytheresa is a German e-commerce luxury fashion company.It is an online shopping
 
 ## Successful page :
 
-![successful page](theresa/successful.png)
+![successful page](theresa/successful22.png)
 
 ## Learnings :
 - Real-life implementation of HTML, CSS, advanced Javascript and React JS.
