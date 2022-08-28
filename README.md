@@ -14,11 +14,11 @@ Mytheresa is a German e-commerce luxury fashion company.It is an online shopping
 ![alt icons](https://t4.ftcdn.net/jpg/03/58/42/75/360_F_358427509_EFpw8u9515zgHy6cPHsOJaCz3ueNts5y.jpg)
 
 ## Landing Page:
--The landing page of mytheresa displays various products, offers and ads of their own.
--In top section there is navbar from which we can browse to other pages.
--At the bottom section there is a footer, both header and footer are same across all the pages.
+- The landing page of mytheresa displays various products, offers and ads of their own.
+- In top section there is navbar from which we can browse to other pages.
+- At the bottom section there is a footer, both header and footer are same across all the pages.
 
-![Landing page](theresa/image1.png)
+![Landing page](public/theresa/image1.png)
 
 ![Landing page](theresa/image2.png)
 
