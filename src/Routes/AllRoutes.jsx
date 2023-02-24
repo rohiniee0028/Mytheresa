@@ -11,10 +11,12 @@ import { Address } from "./Address"
 import { Credit } from "./Credit"
 import { PrivateRoute } from "../Components/PrivateRoutes"
 import { Successful } from "./Successful"
+import { Home } from "./Home"
 
 export const AllRoutes = ()=>{
     return (
         <Routes>
+            <Route path={"/"} element={<Home/>}/>
             <Route path="/women" element={<Women/>}/>
             <Route path="/men" element={<Men/>}/>
             <Route path="/kids" element={<Kids/>}/>
